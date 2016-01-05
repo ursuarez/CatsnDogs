@@ -7,6 +7,7 @@
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	width: 100%;
+	margin-right: 25px;
 }
 
 .boton:hover {
@@ -16,9 +17,14 @@
 
 }
 
+.boton:last-of-type{
+	margin-right: 0;
+}
+
 .boton_a {
 	color: #282828;
-	font-weight: 400;
+	font-weight: 500;
+	font-size: 20px;
 	text-transform: uppercase;
 	text-decoration: none;	
 }
