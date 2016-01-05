@@ -1,8 +1,19 @@
 header, footer {
 	background-color: #282828;
-	position: absolute;
-	width: 100%;		
+	position: fixed;
+	padding: 20px 0;
+	box-sizing: border-box;		
+	width: 100%;
 }
+
+header{
+	top:0;
+}
+
+footer{
+	bottom: 0;
+}
+
 
 header img {
  width: 350px;
@@ -10,7 +21,6 @@ header img {
 }
 
 nav ul li{
-	color: #FFFFFF;
 	display: inline;
 	font-weight: 400;
 }
@@ -19,7 +29,7 @@ footer, footer a{
 	color: #FE9A2E;
 }
 
-footer{
-	padding: 20px 0;
-	box-sizing: border-box;
+.layout_a{
+	color: #FACC2E;
 }
+

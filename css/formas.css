@@ -9,6 +9,13 @@
 	width: 100%;
 }
 
+.boton:hover {
+	border-bottom: 0 none;
+	background-color: #FE9A2E;
+	border-top: 6px solid #FACC2E;
+
+}
+
 .boton_a {
 	color: #282828;
 	font-weight: 400;
