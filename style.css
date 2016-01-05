@@ -1,17 +1,14 @@
+@import url('css/reset.css');
+@import url('css/reticula.css');
+@import url('css/secciones.css');
+@import url('css/editorial.css');
+@import url('css/formas.css');
+@import url('css/layout.css');
+
+
+
 html, body {
 	color: #282828;
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
-}
-
-.boton {
-	color: #282828;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #FACC2E;
-	padding: 20px 30px;
-	font-weight: 400;
-	border-bottom: 6px solid #FE9A2E;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
 }
