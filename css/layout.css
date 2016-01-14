@@ -22,6 +22,17 @@ header img {
  display: block;
 }
 
+.same-height{
+	
+	overflow: hidden;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
 nav ul li{
 	display: inline;
 	font-weight: 400;
@@ -35,3 +46,32 @@ footer, footer a{
 	color: #FACC2E;
 }
 
+
+.bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+/*GROW*/
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
