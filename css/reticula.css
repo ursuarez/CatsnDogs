@@ -33,6 +33,12 @@
   margin-left: -1%;
 }
 
+/*CASO ESPECIAL */
+
+.row + .row{
+  margin-bottom:  15px;
+}
+
 .row.reverse {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
