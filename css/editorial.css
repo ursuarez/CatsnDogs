@@ -15,8 +15,10 @@ h2{
 
 
 h3{
-
-	
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 
@@ -30,9 +32,11 @@ h4{
 p{
 	color: #636363;
 	margin-bottom: 20px;
-	text-align: center;	
 }
 
+.p-center{
+	text-align: center;	
+}
 
 a {
 	text-decoration: none;

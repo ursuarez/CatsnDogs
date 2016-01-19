@@ -24,9 +24,20 @@
 }
 
 .same-height{
+            overflow: hidden;
+}
+
+.special-height{
             max-width: 300px; 
             max-height: 300px;
             overflow: hidden;
+            padding-left: 80px;
+}
+
+.second-height{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
 }
 
 .single{
