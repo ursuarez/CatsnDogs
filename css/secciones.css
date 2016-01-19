@@ -23,6 +23,12 @@
 	display: flex;
 }
 
+.same-height{
+            max-width: 300px; 
+            max-height: 300px;
+            overflow: hidden;
+}
+
 .single{
 	margin-top: 140px;
 	margin-bottom: 140px;
