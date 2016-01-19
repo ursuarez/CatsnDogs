@@ -32,15 +32,26 @@ h4{
 p{
 	color: #636363;
 	margin-bottom: 20px;
+	line-height: 25px;
 }
 
 .p-center{
 	text-align: center;	
 }
 
-a {
+a.special{		
 	text-decoration: none;
+	color: inherit;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.more{
 	text-transform: uppercase;
+	font-size: 10px;
+	margin-top: 20px;
 }
 
 ol li{
